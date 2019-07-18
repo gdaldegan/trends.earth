@@ -170,6 +170,17 @@ def run(params, logger):
         EXECUTION_ID = str(random.randint(1000000, 99999999))
     else:
         EXECUTION_ID = params.get('EXECUTION_ID', None)
+
+    logger.debug("Checking total area of supplied geojsons:")
+    area = 0
+    for geojson in geojsons:
+        aoi = ee.Geometry.MultiPolygon(get_coords(geojson))
+        area += aoi.area().divide(1000000).getInfo()
+    if area > 10000:
+        logger.debug("Area ({:.6n} km sq) is too large - failing task".format(area))
+        raise Exception
+    else:
+        logger.debug("Processing total area of {:.6n} km sq".format(area))
         
     logger.debug("Running main script.")
     
