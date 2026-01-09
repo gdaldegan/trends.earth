@@ -25,10 +25,6 @@ Trends.Earth (formerly the Land Degradation Monitoring Toolbox) is a platform
 from `Conservation International`_ for monitoring land change using Earth observations
 in an innovative desktop and cloud-based system.
 
-Lear more at:
-
-.. _Conservation International: http://www.conservation.org/trendsearth
-.. _Trends.Earth: https://docs.trends.earth/en/latest/
 
 **Track achievement of the sustainable development goals**
 

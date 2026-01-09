@@ -11,7 +11,7 @@ Development Goal (SDG) 15 is to:
     land degradation and halt biodiversity loss"
 
 Each SDG has specific targets addressing different components, in this case, of 
-life on land. Target 15.3 aims to:
+Life on Land. Target 15.3 aims to:
 
     "By 2030, combat desertification, restore degraded land and soil, including 
     land affected by desertification, drought and floods, and strive to achieve 
@@ -25,7 +25,7 @@ assessed using indicator 15.3.1:
 
 As the custodian agency for SDG 15.3, the United Nations Convention to Combat 
 Desertification (UNCCD) has developed a `Good Practice Guidance (GPG) 
-<https://www.unccd.int/sites/default/files/relevant-links/2021-03/Indicator_15.3.1_GPG_v2_29Mar_Advanced-version.pdf>`_. 
+<https://www.unccd.int/sites/default/files/relevant-links/2021-03/Indicator_15.3.1_GPG_v2_29Mar_Advanced-version.pdf>`_  
 providing recommendations on how to calculate SDG Indicator 15.3.1.
 
 This document provides a brief introduction to SDG Indicator 15.3.1 and 
@@ -43,7 +43,7 @@ from 3 sub-indicators:
 
 |trends.earth| allows the user to compute each of these sub-indicators in a 
 spatially explicit way generating raster maps which are then integrated into a 
-final SDG 15.3.1 indicator map and produces a table result reporting areas 
+final SDG Indicator 15.3.1 map and produces a summary table result reporting areas 
 potentially improved and degraded for the area of analysis.
    
 Sub-indicators
@@ -349,13 +349,30 @@ Tropical Montane (f = 0.64).
 
 .. _indicator-combination:
    
-Combining indicators
---------------------
+Combining sub-indicators into SDG Indicator 15.3.1
+--------------------------------------------------
 
-The integration of the three SDG 15.3.1 sub-indicators is done following the 
+The integration of the three sub-indicators into SDG Indicator 15.3.1 is done following the 
 one-out all-out rule, this means that if an area was identified as potentially 
 degraded by any of the sub-indicators, then that area will be considered 
 potentially degraded for reporting purposes.
 
 .. image:: ../../../resources/en/documentation/understanding_indicators15/sdg_aggregation.png
+   :align: center
+
+
+.. _status_layer:
+
+Calculating Status map
+-------------------------
+
+According to the `Good Practice Guidance (GPG) Addendum <https://www.unccd.int/sites/default/files/2025-07/GPG%20Addendum_%20Advanced%20Unedited%20Version.pdf>`_ the Status layer "refers to the final condition (considering the baseline) of land at the end of each reporting period, classified as either degraded, stable, or improved". It is calculating by combining the SDG indicator 15.3.1 layer calculated for a given period of assessment with the Baseline SDG indicator 15.3.1. By combining these two layers, the status shows changes that happened over the period assessment integrated with land conditions (degradation, stabilily, improvement) mapped at the Baseline period, providing a more complete understanding of the land condition trajectory over time.
+
+.. note::
+      The Status layer for the Baseline period is equivalent the SDG Indicator 15.3.1 calculated for the Baseline assessment (i.e. Baseline Assessment == Status 2015).
+
+
+For combining a given period assessment with the Baseline SDG Indicator 15.3.1 it is necessary to apply the 3 x 3 Status Matrix 
+
+.. image:: ../../../resources/en/documentation/understanding_indicators15/status_matrix.png
    :align: center

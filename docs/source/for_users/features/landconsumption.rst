@@ -2,6 +2,7 @@
 
 Land Consumption and SDG 11.3.1
 ================================
+.. Note:: Unfortunatelly we have been unable to update the datasets for assessing Land Consumption and SDG 11.3.1
 
 Background
 ----------

@@ -116,7 +116,7 @@ Calculate SDG 15.3.1 Indicator and UNCCD's SO 2-3
 -If you have the sub-indicators loaded into the QGIS map, the tool will recognize them and they will show up pre-filled in each corresponding section.
 
 .. note::
-	Maje sure to carefully verify that the available layers are correctly pre-filled to the corresponding fields.
+	Make sure to carefully verify that the available layers are correctly pre-filled to the corresponding fields.
 
 4. Click on **Advanced** to expand it and show advanced options then select the **Population (required to calculate populations exposed by degradation)** check box to calculate `UNCCD's SO 2-3, proportion of population exposed to land degradation disaggregated by sex <https://prais4-reporting-manual.readthedocs.io/en/latest/SO2.html#so-2-3-trends-in-population-exposure-to-land-degradation-disaggregated-by-sex>`_. Make sure to check the **Population** box both for **Baseline** and **Progress Period** in case you are interested in having summary results for both periods.
    |trends.earth| provides access the **WorldPop** dataset, which is used by default by the UNCCD for calculating indicator SO2-3. 
