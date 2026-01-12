@@ -366,7 +366,7 @@ potentially degraded for reporting purposes.
 Calculating Status map
 -------------------------
 
-According to the `Good Practice Guidance (GPG) Addendum <https://www.unccd.int/sites/default/files/2025-07/GPG%20Addendum_%20Advanced%20Unedited%20Version.pdf>`_ the Status layer "refers to the final condition (considering the baseline) of land at the end of each reporting period, classified as either degraded, stable, or improved". It is calculating by combining the SDG indicator 15.3.1 layer calculated for a given period of assessment with the Baseline SDG indicator 15.3.1. By combining these two layers, the status shows changes that happened over the period assessment integrated with land conditions (degradation, stabilily, improvement) mapped at the Baseline period, providing a more complete understanding of the land condition trajectory over time.
+According to the `Good Practice Guidance (GPG) Addendum <https://www.unccd.int/sites/default/files/2025-07/GPG%20Addendum_%20Advanced%20Unedited%20Version.pdf>`_ the Status layer "refers to the final condition (considering the baseline) of land at the end of each reporting period, classified as either degraded, stable, or improved". It combines the SDG Indicator 15.3.1 layer calculated for a given period of assessment with the Baseline SDG Indicator 15.3.1. By combining these two layers, the status shows changes that happened over the period assessment integrated with land conditions (degradation, stabilily, improvement) mapped at the Baseline period, providing a more complete understanding of the land condition trajectory over time.
 
 .. note::
       The Status layer for the Baseline period is equivalent the SDG Indicator 15.3.1 calculated for the Baseline assessment (i.e. Baseline Assessment == Status 2015).
@@ -374,5 +374,5 @@ According to the `Good Practice Guidance (GPG) Addendum <https://www.unccd.int/s
 
 For combining a given period assessment with the Baseline SDG Indicator 15.3.1 it is necessary to apply the 3 x 3 Status Matrix 
 
-.. image:: ../../../resources/en/documentation/understanding_indicators15/status_matrix.png
+.. image:: ../../../resources/en/documentation/understanding_indicators15/status_matrix_expanded.png
    :align: center
