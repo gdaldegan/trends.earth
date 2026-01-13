@@ -65,7 +65,7 @@ NPP.
 
 One of the most commonly used surrogates of NPP is the Normalized Difference 
 Vegetation Index (NDVI), computed using information from the red and near 
-infrared portions of the electromagnetic spectrum. In |trends.earth| we make 
+infrared wavelengths of the electromagnetic spectrum. In |trends.earth| we make 
 use of bi-weekly products from MODIS and AVHRR to compute annual integrals of 
 NDVI (computed as the mean annual NDVI for simplicity of interpretation of 
 results). These annual integrals of NDVI are then used to compute each of the 
@@ -353,7 +353,7 @@ Combining sub-indicators into SDG Indicator 15.3.1
 --------------------------------------------------
 
 The integration of the three sub-indicators into SDG Indicator 15.3.1 is done following the 
-one-out all-out rule, this means that if an area was identified as potentially 
+one-out all-out rule (1OAO), this means that if an area was identified as potentially 
 degraded by any of the sub-indicators, then that area will be considered 
 potentially degraded for reporting purposes.
 
